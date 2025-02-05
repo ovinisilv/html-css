@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face {
+    font-family:fonte;
+    src: url(fontes/idroid.otf);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header{
+background-image: linear-gradient(cyan, rgb(7, 107, 107) );
+    color: white;
+    text-decoration: none;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+body {
+    font-size: 1em;
+    background-color: cyan;
+    margin-top: -20px;    
+}
+
+
+nav > a:hover{
+        background-color : rgba(0, 255, 255, 0.61);
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        
+}
+
+.link {
+        color: white;
+        text-decoration: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+}
+
+
+main {
+    background-color: white;
+   margin: auto;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 100px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 7px;
+}
+
+.fundin {
+    background-color: #16a7a7;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.123);
+}
+
+.lok {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 5px black;
+}
+
+.bla {
+    color: rgb(0, 206, 206);
+    font-family: fonte ;
+}
+
+.eii {
+    font-family: fonte ;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+.oi {
+    background-color: #16a7a7;
+    text-align: center;
+}
+
+#ladiado1 {
+    width: 50%;
+    min-width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ladiado2 {
+    width: 50%;
+    min-width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+footer {
+    background-color: #073b3b;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin: 0px -7px -20px -8px;
+}
+
+.credit1 {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.imagem0 img{
+    text-align: center;
+    width: 60%;
+}
+.imagem1 img{
+    text-align: center;
+}
+
+
+h1,h2{
+    text-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.26);
+}

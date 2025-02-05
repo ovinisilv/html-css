@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="../../exercicios/ex003/imagens/sebrae200.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+        
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 6px 5px 6px 0px rgba(0, 0, 0, 0.61);
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            color: cyan;
+            text-decoration:underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.651);
+        }
+        article {
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+        article > aside {
+            background-color: bisque;
+            border-radius: 5px;
+        } 
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+                <p>ESPORTES, POLÍTICA E TECNOLOGIA
+        </section>
+
+        <section id="noticias">
+            <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis asperiores accusantium harum ipsa quibusdam amet at quae repudiandae sapiente eveniet natus, nam expedita et suscipit nisi, vitae doloribus, ea explicabo.</p>
+                    <aside>
+                        <p>Artigo escrito por Vinicius Silva</p>
+                    </aside>
+
+
+
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        Desenvolvido pelo Vinicius Silva
+
+    </footer>
+    <div id="bola">
+    </div>
+
+</body>
+</html>

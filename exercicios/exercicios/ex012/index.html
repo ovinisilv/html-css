@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/foto dia 21 marketing.jpg" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <!--Tag: video source src, tag de thumbnail é poster dentro da tag video-->
+        <p>Este vídeo está hospedado no meu próprio servidor</p>
+        <!--Arquivos compatíveis: MP4,M4V,WEBM,OGV-->
+        <!--Conversor: HandBrake-->
+        <video controls width="500" poster="imagens/foto dia 21 marketing.jpg" autoplay loop>
+            <source src="midias/meu-video2.mp4" type="video/mp4">
+            <source src="midias/meu-video3.mkv"type="video/mp4">
+            <source src="midias/meu-video.MOV" type="mov">
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeos. <a href="midias/meu-video2.mp4">Faça o download do vídeo mp4 aqui</a></p>
+        </video>
+
+        <h1>Inserindo vídeos do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6KrdqBb3fF4?si=M_JXuGloXw_UojXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1>Inserindo vídeos do Vimeo</h1>
+        <iframe src="https://player.vimeo.com/video/7636697?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Animation Reel"></iframe>
+    </picture>
+</body>
+</html>

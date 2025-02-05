@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font: normal 16px Arial, Verdana, serif;
+    background-color: rgb(179, 175, 175);
+}
+
+h1 {
+    font: bold 25px Verdana, sans serif;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    border-radius:20px;
+    box-shadow: 5px, 5px, 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: right;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
